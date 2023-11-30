@@ -1,8 +1,15 @@
-name: deployer
+# This is a basic workflow to help you get started with Actions
 
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
-  my-job:
+  build:
     name: my-job
     runs-on: ubuntu-latest
     steps:
