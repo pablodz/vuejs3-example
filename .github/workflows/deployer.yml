@@ -21,7 +21,7 @@ jobs:
       - name: Install and Build
         run: |
           bun install
-            bun run build
+          bunx --bun vite build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

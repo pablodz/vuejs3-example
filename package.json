@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "clean": "rm -rf dist",
     "dev": "bunx --bun vite",
-    "build": "vite build",
+    "build": "bunx --bun vite build",
     "preview": "vite preview"
   },
   "dependencies": {
