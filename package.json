@@ -1,18 +1,23 @@
 {
-  "name": "vue-project",
+  "name": "project",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "bunx --bun vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "lorem-ipsum": "^2.0.8",
     "pinia": "^2.1.7",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "latest",
     "vite": "^4.4.11"
   }
 }

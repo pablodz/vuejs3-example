@@ -1,11 +1,16 @@
-import './assets/main.css'
+import "./index.css";
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import App from './App.vue'
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import App from "./App.vue";
 
-const app = createApp(App)
+// Lorem generator
+import LoremIpsumGenerator from '@/components/extras/LoremIpsumGenerator.vue';
 
-app.use(createPinia())
+const app = createApp(App);
 
-app.mount('#app')
+app.component('LoremIpsumGenerator', LoremIpsumGenerator);
+
+app.use(createPinia());
+
+app.mount("#app");

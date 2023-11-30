@@ -1,5 +1,7 @@
 # vue-project
 
+If you are reading this, I know you are here.
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
@@ -13,17 +15,17 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-npm install
+bun install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+bun run dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-npm run build
+bunx --bun vite build  
 ```
