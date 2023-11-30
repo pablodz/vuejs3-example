@@ -10,7 +10,7 @@
 					<LoremIpsumGenerator :textLength="2" />
 				</h2>
 				<p class="text-bookmark-grey text-2xl text-center lg:text-left mb-6">
-					<LoremIpsumGenerator :textLength="15" />
+					<LoremIpsumGenerator :textLength="14" />
 				</p>
 				<div class="flex justify-center felx-wrap gap-6">
 					<button
