@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "vuejs3-example",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lorem-ipsum": "^2.0.8",
+    "@pablodz/lorem-ipsum-generator": "latest",
     "pinia": "^2.1.7",
     "vue": "^3.3.4"
   },
